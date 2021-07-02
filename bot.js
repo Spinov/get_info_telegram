@@ -69,7 +69,7 @@ bot.on('text', (ctx) => {
     } else if (_menu === 'company') {
         getCompany(ctx);
     } else {
-        ctx.reply('Ничего не выбрано!').then();
+        ctx.reply('Нічого не вибрано!', getMainMenu()).then();
     }
 }).on('callback_query', (ctx) => {
     // отвечаем телеграму что получили от него запрос
@@ -121,7 +121,7 @@ function getVehicle(ctx) {
             const resultParse = JSON.parse(body);
 
             if (resultParse.error) {
-                ctx.reply('Номер не найден.')
+                ctx.reply('Номер не знайдений.')
             }
             //  console.log(resultParse);
             //  console.log(body);
@@ -145,7 +145,7 @@ function getVehicle(ctx) {
                 }
             });
         } else {
-            ctx.reply('Номер не найден.')
+            ctx.reply('Номер не знайдений.')
         }
 
     });
