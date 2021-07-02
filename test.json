@@ -1,0 +1,49 @@
+{
+  "digits": "KA0007XB",
+  "region": {
+    "name": "г. Киев",
+    "name_ua": "м. Київ",
+    "slug": "kyiv",
+    "old_code": "AA",
+    "new_code": "KA"
+  },
+  "vendor": "BMW",
+  "model": "M760LI",
+  "model_year": 2021,
+  "photo_url": "https://baza-gai.com.ua/catalog-images/bmw/7er/VI (G11-G12) Рестайлинг/image.jpg",
+  "is_stolen": false,
+  "operations": [
+    {
+      "is_last": true,
+      "registered_at": "03.04.2021",
+      "model_year": 2021,
+      "vendor": "BMW",
+      "model": "M760LI",
+      "operation": {
+        "ru": "Первичная регистрация нового ТС, автосалон, ввезено из-за границы",
+        "ua": "Первинна реєстрація нового тз придбаного в торгівельній організації, який ввезено з-за кордону"
+      },
+      "department": "ТСЦ 8047",
+      "color": {
+        "slug": "gray",
+        "ru": "Серый",
+        "ua": "Сірий"
+      },
+      "is_registered_to_company": false,
+      "address": "м.Київ, Деснянський",
+      "koatuu": 8036400000,
+      "displacement": 6592,
+      "kind": {
+        "id": 1,
+        "ru": "Легковой",
+        "ua": "Легковий",
+        "slug": "car"
+      },
+      "operation_group": {
+        "id": 1,
+        "ru": "Первичная регистрация",
+        "ua": "Первинна реєстрація"
+      }
+    }
+  ]
+}
