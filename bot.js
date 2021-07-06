@@ -49,7 +49,7 @@ bot.help(ctx => ctx.reply(COUNTRIES_LIST))
 })*/
 bot.hears('Авто', ctx => {
     _menu = 'vehicle';
-    ctx.reply('Введите номер т/c');
+    ctx.reply('Введіть номер т/з');
 })
 
 bot.hears('Компанії', ctx => {
